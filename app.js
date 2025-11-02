@@ -159,3 +159,27 @@ console.log(userProfile);
 // Done in the following files:
 // - exportingFiles.js
 // - importingFiles.js
+
+
+
+
+
+// ! Exercise 8:
+// a. Create a function with two parameters, `noun` and `adjective`.
+// 
+// b. Give `noun` a default value of "cat" and `adjective` a default value of 
+//    "orange".
+//
+// c. The function should log a sentence 'The cat is orange.' by default, but 
+//    should substitute the appropriate parameters when it is supplied with 
+//    arguments.
+//
+// Your code here:
+
+
+const sentence = (noun = "cat", adjective = "orange") => {
+  console.log("\nDefault Parameters")
+  console.log(`The ${noun} is ${adjective}.`);
+}
+
+sentence();
