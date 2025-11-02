@@ -257,3 +257,25 @@ const theme = savedUserTheme || "light";
 
 console.log("\nBoolean Gates - Theme");
 console.log(theme);
+
+
+
+
+
+// ! Exercise 11:
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+//
+// Starting code (don't modify this):
+
+const adventurer = {
+  name: 'Alice',
+};
+
+// Your code here:
+
+console.log("\nOptional Chaining")
+console.log(adventurer.cat?.age);
+
+adventurer.cat = { age: "Immortal"};
+console.log(adventurer.cat?.age);
