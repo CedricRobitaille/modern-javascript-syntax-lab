@@ -124,3 +124,33 @@ myCar.model = "Lacrosse";
 console.log("\nSpread Operator to Deep Copy Object");
 console.log("Another Car:", anotherCar);
 console.log("My Car:", myCar);
+
+
+
+
+
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+
+const propertyName = "name";
+
+const userProfile = {
+  [propertyName]: "Cedric",
+}
+
+console.log("\nDynamic Keys in Objects");
+console.log(userProfile);
+
+
+
+
