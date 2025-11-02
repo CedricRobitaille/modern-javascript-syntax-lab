@@ -17,6 +17,8 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 // Your code here:
 
 const numsTimesTwo = nums.map((num) => { return num * 2 })
+
+console.log("\nMap Function")
 console.log(numsTimesTwo);
 
 
@@ -42,7 +44,7 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 const [firstIngredient, secondIngredient] = pizzaToppings;
 
 // Printing
-console.log("Array Destructuring")
+console.log("\nArray Destructuring")
 console.log(firstIngredient);
 console.log(secondIngredient);
 
@@ -69,7 +71,7 @@ const car = {
 const { make, model } = car;
 
 // Printing
-console.log("Object Destructuring")
+console.log("\nObject Destructuring")
 console.log(make);
 console.log(model);
 
@@ -90,4 +92,35 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 // Your code here:
 
 const uncontroversialPizzaToppings = [...morePizzaToppings]
+console.log("\nSpread Operator to Deep Copy an Array")
 console.log(uncontroversialPizzaToppings)
+
+
+
+
+
+// ! Exercise 5:
+// a. Duplicate the provided `anotherCar` object and spread its values into a 
+//    new variable named `myCar`.
+//
+// b. Change the `make` and `model` properties of the `myCar` object to new 
+//    values.
+//
+// c. Console log both objects and observe the results.
+//
+// Starting code (don't modify this):
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
+// Your code here:
+
+const myCar = { ...anotherCar };
+myCar.make = "Buick";
+myCar.model = "Lacrosse";
+
+console.log("\nSpread Operator to Deep Copy Object");
+console.log("Another Car:", anotherCar);
+console.log("My Car:", myCar);
