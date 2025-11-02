@@ -1,11 +1,4 @@
-const flavors = ['vanilla', 'chocolate', 'strawberry'];
 
-const iceCreamFlavors = flavors.map((flavor) => {
-  return `${flavor} ice cream`;
-});
-
-console.log(iceCreamFlavors);
-// Prints: ['vanilla ice cream', 'chocolate ice cream', 'strawberry ice cream']
 
 
 // ! Exercise 1:
@@ -28,3 +21,26 @@ console.log(numsTimesTwo);
 
 
 
+
+
+
+// ! Exercise 2:
+// a. Given the provided `pizzaToppings` array, use destructuring to extract 
+//    the first and second values and place them into variables. Name the 
+//    variable that corresponds to the first value `firstIngredient`. Name the 
+//    variable that corresponds to the second value `secondIngredient`.
+//
+// b. Console log the `firstIngredient` and `secondIngredient` variables.
+//
+// Starting code (don't modify this):
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here:
+
+// Destructuring:
+const [firstIngredient, secondIngredient] = pizzaToppings;
+
+// Printing
+console.log(firstIngredient);
+console.log(secondIngredient);
