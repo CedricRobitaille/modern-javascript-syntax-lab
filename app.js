@@ -154,3 +154,8 @@ console.log(userProfile);
 
 
 
+// ! Exercise 7:
+// Import and Export
+// Done in the following files:
+// - exportingFiles.js
+// - importingFiles.js
